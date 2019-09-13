@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+<!--<form method="post" action="indexjquery.html">-->
+    <!--<input type="text" id="userName" placeholder="Name:"><br>-->
+    <!--<input type="text" id="phoneNumber" placeholder="Phone number:"><br>-->
+    <!--<input type="email" id="email" placeholder="Email:"><br>-->
+    <!--<input type="text" id="city" placeholder="City:"><br>-->
+    <!--<input type="text" id="streetName" placeholder="Street:"><br>-->
+    <!--<input type="text" id="streetNumber" placeholder="Street number:"><br>-->
+    <!--<input type="text" id="apartment" placeholder="Apartment:"><br>-->
+    <!--<input type="password" id="password" placeholder="Password:"><br>-->
+    <!--<input type="password" id="confirmPassword" placeholder="Confirm Password:"><br>-->
+    <!--<input type="text" id="comment" placeholder="Comment:"><br>-->
+    <!--<input type="checkbox" id="paymentMethod" placeholder="Payment method:"><br>-->
+<!---->
+<!---->
+    <!--<input type="submit" value="Register"><br>-->
+<!--</form>-->
+<div class="container">
+    <h1 class="text-center">Registration</h1>
+    <form id = "addUserForm">
+        <div class="form-group">
+            <label for="">Name:</label>
+            <input type="text" id="userName" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Email:</label>
+            <input type="email" id="userEmail" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Password:</label>
+            <input type="password" id="password" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Confirm password:</label>
+            <input type="password" id="passwordConfirm" class="form-control">
+        </div>
+
+
+        <div class="form-group">
+            <label for="">Sex:</label>
+            <select id="userSex" class="form-control">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <button type="button" id="btnRegister" class="btn-primary btn-block">Register</button>
+
+    </form>
+
+    <br>
+    <button id="btnPrev" class="btn btn-success">Previous</button>
+    <button id="btnNext" class="btn btn-success">Next</button>
+
+
+    <table class="table" id="usersTable">
+        <thead>
+        <tr>
+
+            <th>id
+            </th>
+            <th>name</th>
+            <th>email</th>
+            <th>password</th>
+            <th>sexType</th>
+            <th>delete</th>
+        </tr>
+
+        </thead>
+        <tbody></tbody>
+    </table>
+
+</div>
+<script src = "js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

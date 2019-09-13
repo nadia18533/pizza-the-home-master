@@ -1,0 +1,41 @@
+/*----Rancho Cursive----*/
+@font-face {
+  font-family: 'Rancho';
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/Rancho-Regular.woff2);
+}
+
+/*----Open sans----*/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src:url(../fonts/OpenSans-Light.woff2);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/OpenSans-Regular.woff2);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src:url(../fonts/OpenSans-Semibold.woff2);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src:url(../fonts/OpenSans-Bold.woff2);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src:url(../fonts/OpenSans-ExtraBold.woff2);
+}
+
