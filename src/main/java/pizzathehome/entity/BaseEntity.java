@@ -15,5 +15,5 @@ public class BaseEntity {
     private  Long id;
 
 
-    /////dasdasdas
+    /////das
 }
